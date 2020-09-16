@@ -1,0 +1,80 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -------------- */
+
+.header {
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+	color: #CDD5AA;
+}
+.header__title {
+	color: #8A887B;
+}
+.header__title h1{
+	color: #71648C;
+}
+.header__footer {
+	color: #F053AD;
+}
+.header__date {
+}
+.header__viev {
+}
+.header__comments {
+}
+.main {
+}
+.subtitle {
+	color: #53F09A;
+}
+.main__text {
+	color: #A962C9;
+}
+.main__text span{
+	color: #F0EE58;
+}
+.main__transfer {
+	color: #53F09A;
+}
+.footer {
+}
+.footer__text {
+	color: #F053AD;
+}
